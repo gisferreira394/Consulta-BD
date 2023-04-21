@@ -55,5 +55,11 @@ namespace Consulta_BD
             dataGridView1.DataSource = dt;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form fcadastro= new Form2 ();
+            fcadastro.Show();
+        }
     }
 }
